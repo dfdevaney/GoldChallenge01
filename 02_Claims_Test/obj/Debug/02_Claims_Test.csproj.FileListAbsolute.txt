@@ -1,0 +1,2 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Test\obj\Debug\02_Claims_Test.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Test\obj\Debug\02_Claims_Test.csproj.CoreCompileInputs.cache

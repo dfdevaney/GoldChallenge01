@@ -17,11 +17,10 @@ namespace _02_Claims
 
             public string ClaimDescription { get; set; }
             public float ClaimAmount { get; set; }
-            public DateTime DateOfIncident { get; set; }
-            public DateTime DateOfClaim { get; set; }
+            public string DateOfIncident { get; set; }
+            public string DateOfClaim { get; set; }
             public bool IsValid { get; set; }
-        public ClaimContent() { }
-        public ClaimContent(int claimID, ClaimType claimType, string claimDescription, float claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public ClaimContent(int claimID, ClaimType claimType, string claimDescription, float claimAmount, string dateOfIncident, string dateOfClaim, bool isValid)
         {
             ClaimID = claimID;
             TypeOfClaim = claimType;

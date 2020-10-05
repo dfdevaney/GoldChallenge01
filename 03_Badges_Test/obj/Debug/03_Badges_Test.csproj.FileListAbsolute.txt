@@ -1,0 +1,2 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Test\obj\Debug\03_Badges_Test.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Test\obj\Debug\03_Badges_Test.csproj.CoreCompileInputs.cache

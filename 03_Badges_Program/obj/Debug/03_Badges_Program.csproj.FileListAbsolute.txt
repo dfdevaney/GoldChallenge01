@@ -1,0 +1,6 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\bin\Debug\03_Badges_Program.exe.config
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\bin\Debug\03_Badges_Program.exe
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\bin\Debug\03_Badges_Program.pdb
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\obj\Debug\03_Badges_Program.csproj.CoreCompileInputs.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\obj\Debug\03_Badges_Program.exe
+C:\Users\durer\source\repos\ChallengeOne.Console\03_Badges_Program\obj\Debug\03_Badges_Program.pdb

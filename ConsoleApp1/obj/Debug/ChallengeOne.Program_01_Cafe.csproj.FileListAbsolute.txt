@@ -1,0 +1,2 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\ConsoleApp1\obj\Debug\ChallengeOne.Program_01_Cafe.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\ConsoleApp1\obj\Debug\ChallengeOne.Program_01_Cafe.csproj.CoreCompileInputs.cache

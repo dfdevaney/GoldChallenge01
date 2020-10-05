@@ -7,7 +7,7 @@ namespace _03_Badges_Test
     public class BadgesTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void BadgesTest()
         {
 
         }

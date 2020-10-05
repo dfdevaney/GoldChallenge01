@@ -1,0 +1,7 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\bin\Debug\02_Claims_Program.exe.config
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\bin\Debug\02_Claims_Program.exe
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\bin\Debug\02_Claims_Program.pdb
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\obj\Debug\02_Claims_Program.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\obj\Debug\02_Claims_Program.csproj.CoreCompileInputs.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\obj\Debug\02_Claims_Program.exe
+C:\Users\durer\source\repos\ChallengeOne.Console\02_Claims_Program\obj\Debug\02_Claims_Program.pdb
