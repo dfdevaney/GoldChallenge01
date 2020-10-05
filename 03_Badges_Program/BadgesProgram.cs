@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace _03_Badges_Program
 {
-    class Program
+    class BadgesProgram
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{9473F9B0-2999-41CC-A9FA-E6F9FB368401}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02_Claims_Program</RootNamespace>
-    <AssemblyName>_02_Claims_Program</AssemblyName>
+    <AssemblyName>02_Claims_Program</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

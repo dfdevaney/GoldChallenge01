@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02_Claims
+namespace _03_Badges
 {
-    public class ClaimsMain : ClaimContent
+    public class BadgesContent
     {
 
     }

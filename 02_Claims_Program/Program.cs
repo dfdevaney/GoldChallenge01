@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace _02_Claims_Program
 {
-    class Program
+    class ClaimsProgram
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

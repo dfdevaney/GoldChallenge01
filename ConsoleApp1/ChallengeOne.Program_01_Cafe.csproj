@@ -52,9 +52,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ChallengeOne.Console\ChallengeOne.Console.csproj">
+    <ProjectReference Include="..\ChallengeOne.Console\ChallengeOne.Console_01_Cafe.csproj">
       <Project>{906CD2CA-0EEF-4614-96E3-61F31F61779C}</Project>
-      <Name>ChallengeOne.Console</Name>
+      <Name>ChallengeOne.Console_01_Cafe</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

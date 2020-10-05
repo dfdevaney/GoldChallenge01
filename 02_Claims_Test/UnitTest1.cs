@@ -7,8 +7,9 @@ namespace _02_Claims_Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ClaimsTest()
         {
+
         }
     }
 }

@@ -44,8 +44,6 @@
     <Compile Include="01_Cafe.cs" />
     <Compile Include="01_MenuItem.cs" />
     <Compile Include="01_MenuRepository.cs" />
-    <Compile Include="02_Claims.cs" />
-    <Compile Include="03_Badges.cs" />
     <Compile Include="01_MenuItemRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
