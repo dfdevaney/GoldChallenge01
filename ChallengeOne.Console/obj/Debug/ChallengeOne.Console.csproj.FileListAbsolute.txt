@@ -1,0 +1,6 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\bin\Debug\ChallengeOne.Console.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\bin\Debug\ChallengeOne.Console.pdb
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\obj\Debug\ChallengeOne.Console.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\obj\Debug\ChallengeOne.Console.csproj.CoreCompileInputs.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\obj\Debug\ChallengeOne.Console.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\ChallengeOne.Console\obj\Debug\ChallengeOne.Console.pdb

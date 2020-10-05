@@ -1,0 +1,16 @@
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\UnitTest.@for.Challenge.One.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\UnitTest.@for.Challenge.One.pdb
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\ChallengeOne.Console.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\ChallengeOne.Console.pdb
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\obj\Debug\UnitTest.for.Challenge.One.csprojAssemblyReference.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\obj\Debug\UnitTest.for.Challenge.One.csproj.CoreCompileInputs.cache
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\obj\Debug\UnitTest.for.Challenge.One.csproj.CopyComplete
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\obj\Debug\UnitTest.@for.Challenge.One.dll
+C:\Users\durer\source\repos\ChallengeOne.Console\UnitTest.for.Challenge.One\obj\Debug\UnitTest.@for.Challenge.One.pdb
