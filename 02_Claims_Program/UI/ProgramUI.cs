@@ -71,10 +71,13 @@ namespace _02_Claims_Program.UI
         }
         private void MoveToNextClaim()
         {
+            _console.Clear();
+            Queue<ClaimContent> queue = _claimsRepo.ClaimQueue();
 
         }
         private void CreateNewClaim()
         {
+            _console.Clear();
             ClaimContent claim = new ClaimContent();
             _console.WriteLine("Please enter the Claim Number: ");
             int claimID = Convert.ToInt32(_console.ReadLine());
@@ -95,12 +98,16 @@ namespace _02_Claims_Program.UI
             }
             _console.WriteLine($"Enter Description for Claim {claimID}: ");
             string description = _console.ReadLine();
+            claim.ClaimDescription = description;
             _console.WriteLine($"Enter Claim Amount for Claim {claimID}: ");
             decimal claimAmount = Convert.ToDecimal(_console.ReadLine());
+            claim.ClaimAmount = claimAmount;
             _console.WriteLine($"Enter Date of Incident for Claim {claimID}: (mm/dd/yyyy)");
             string claimIncidentDate = _console.ReadLine();
+            claim.DateOfIncident = claimIncidentDate;
             _console.WriteLine($"Enter the Claim Date for Claim {claimID}: ");
             string claimDate = _console.ReadLine();
+            claim.DateOfClaim = claimDate;
             _console.WriteLine($"Enter if the Claim is Valid for Calim {claimID}: 1) True \n2) False");
             string claimValidity = _console.ReadLine();
             switch (claimValidity)

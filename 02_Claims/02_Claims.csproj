@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="02_Claims_Content.cs" />
-    <Compile Include="02_Claims.cs" />
     <Compile Include="02_Claims_Content_Repository.cs" />
     <Compile Include="02_Claims_Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
