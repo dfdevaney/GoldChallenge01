@@ -9,10 +9,11 @@ namespace _03_Badges_Program
 {
     class BadgesProgram
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            IDictionary<BadgesRepository, DoorsRepository> dictonary = new Dictionary<BadgesRepository, DoorsRepository>();
-
+            IConsole console = new RealConsole();
+            ProgramUI ui = new ProgramUI(console);
+            ui.Run();
         }
     }
 }

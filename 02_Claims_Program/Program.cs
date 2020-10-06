@@ -10,7 +10,9 @@ namespace _02_Claims_Program
     {
         static void Main(string[] args)
         {
-
+            IConsole console = new RealConsole();
+            ProgramUI ui = new ProgramUI(console);
+            ui.Run();
         }
     }
 }

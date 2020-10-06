@@ -17,6 +17,7 @@ namespace _02_Claims_Program.UI
         }
         public void Run()
         {
+            SeedContent();
             RunMenu();
         }
         private void RunMenu()
@@ -79,9 +80,11 @@ namespace _02_Claims_Program.UI
         {
             _console.Clear();
             ClaimContent claim = new ClaimContent();
+            // Get Claim ID:
             _console.WriteLine("Please enter the Claim Number: ");
             int claimID = Convert.ToInt32(_console.ReadLine());
             claim.ClaimID = claimID;
+            // Get Type of Claim:
             _console.WriteLine($"Please enter the Claim Type for Claim {claimID}: 1) Car \n2) Home \n3)Theft");
             string claimType = _console.ReadLine();
             switch (claimType)
@@ -96,18 +99,23 @@ namespace _02_Claims_Program.UI
                     claim.TypeOfClaim = ClaimType.Theft;
                     break;
             }
+            // Get Description:
             _console.WriteLine($"Enter Description for Claim {claimID}: ");
             string description = _console.ReadLine();
             claim.ClaimDescription = description;
+            // Get Claim Amount:
             _console.WriteLine($"Enter Claim Amount for Claim {claimID}: ");
             decimal claimAmount = Convert.ToDecimal(_console.ReadLine());
             claim.ClaimAmount = claimAmount;
+            // Get Date of Incident:
             _console.WriteLine($"Enter Date of Incident for Claim {claimID}: (mm/dd/yyyy)");
             string claimIncidentDate = _console.ReadLine();
             claim.DateOfIncident = claimIncidentDate;
+            // Get Date of Claim:
             _console.WriteLine($"Enter the Claim Date for Claim {claimID}: ");
             string claimDate = _console.ReadLine();
             claim.DateOfClaim = claimDate;
+            // Get Claim Validity:
             _console.WriteLine($"Enter if the Claim is Valid for Calim {claimID}: 1) True \n2) False");
             string claimValidity = _console.ReadLine();
             switch (claimValidity)
@@ -119,7 +127,12 @@ namespace _02_Claims_Program.UI
                     claim.IsValid = Validity.False;
                     break;
             }
+            // Add Claim to Repository:
             _claimsRepo.AddClaimToDirectory(claim);
+        }
+        private void SeedContent()
+        {
+
         }
     }
 }
