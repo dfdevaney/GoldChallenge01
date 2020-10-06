@@ -19,13 +19,35 @@ namespace _02_Claims
             return wasAdded;
         }
 
+        // Create Queue:
+
+        public Queue<ClaimContent> ClaimQueue()
+        {
+            Queue<ClaimContent> queue = new Queue<ClaimContent>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            while (queue.Count > 0)
+            {
+                var val = queue.Dequeue();
+                Console.WriteLine("Current: {0}", val);
+
+                if (queue.Count > 0)
+                {
+                    var next = queue.Peek();
+                    Console.WriteLine("Next: {0}", next);
+                }
+            }
+        }
+
         // Read All:
+
         public List<ClaimContent> GetAllClaims()
         {
             return _contentDirectory;
         }
 
         // Read One:
+
         public ClaimContent GetContentByID(int iD)
         {
             foreach(ClaimContent singleContent in _contentDirectory)
@@ -39,6 +61,7 @@ namespace _02_Claims
         }
 
         // Update:
+
         public bool UpdateExistingClaim(int originalID, ClaimContent newContent)
         {
             ClaimContent oldContent = GetContentByID(originalID);
@@ -58,6 +81,7 @@ namespace _02_Claims
         }
 
         // Delete:
+
         public bool DeleteExistingClaim(ClaimContent existingContent)
         {
             bool deleteResult = _contentDirectory.Remove(existingContent);

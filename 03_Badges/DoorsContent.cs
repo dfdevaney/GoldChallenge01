@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace _03_Badges
 {
-    public class Badges
+    public class DoorsContent
     {
-
+        public string Doors { get; set; }
     }
 }

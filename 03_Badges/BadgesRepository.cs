@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace _03_Badges
 {
-    public class BadgesRepository
+    public class BadgesRepository : BadgesContentRepository
     {
-        
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _03_Badges;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,9 @@ namespace _03_Badges_Program
 {
     class BadgesProgram
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            IDictionary<BadgesRepository, DoorsRepository> dictonary = new Dictionary<BadgesRepository, DoorsRepository>();
 
         }
     }

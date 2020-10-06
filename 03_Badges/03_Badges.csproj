@@ -41,11 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Badges.cs" />
     <Compile Include="BadgesContent.cs" />
     <Compile Include="BadgesContentRepository.cs" />
     <Compile Include="BadgesRepository.cs" />
-    <Compile Include="Doors.cs" />
+    <Compile Include="DoorsContent.cs" />
+    <Compile Include="DoorsContentRepository.cs" />
+    <Compile Include="DoorsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
