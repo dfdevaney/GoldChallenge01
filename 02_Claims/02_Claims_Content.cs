@@ -10,17 +10,36 @@ namespace _02_Claims
         {
             Car = 1, Home, Theft
         }
+        public enum Validity
+        {
+            True = 1, False
+        }
         public class ClaimContent
         {
             public int ClaimID { get; set; }
             public ClaimType TypeOfClaim { get; set; }
 
             public string ClaimDescription { get; set; }
-            public float ClaimAmount { get; set; }
+            public decimal ClaimAmount { get; set; }
             public string DateOfIncident { get; set; }
             public string DateOfClaim { get; set; }
-            public bool IsValid { get; set; }
-        public ClaimContent(int claimID, ClaimType claimType, string claimDescription, float claimAmount, string dateOfIncident, string dateOfClaim, bool isValid)
+            public Validity IsValid { get; set; }
+            public bool IsIsNotValid
+            {
+                get
+                {
+                    switch (IsValid)
+                    {
+                    case Validity.True:
+                        return true;
+                    case Validity.False:
+                        return false;
+                    default:
+                        return false;
+                    }
+                }
+            }
+        public ClaimContent(int claimID, ClaimType claimType, string claimDescription, decimal claimAmount, string dateOfIncident, string dateOfClaim, Validity isValid)
         {
             ClaimID = claimID;
             TypeOfClaim = claimType;

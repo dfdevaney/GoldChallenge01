@@ -9,13 +9,13 @@ namespace _02_Claims
 {
     public class Claims_Repository : Claims_Content_Repository
     {
-        public List<ClaimsMain> GetClaimByID(int claimID)
+        public List<ClaimContent> GetAllClaims()
         {
-            List<ClaimsMain> idList = new List<ClaimsMain>();
-            var listOfAllClaims = GetAllClaims();
-            foreach(var eachID in listOfAllClaims)
+            List<ClaimContent> allClaims = new List<ClaimContent>();
+            foreach(ClaimContent content in _contentDirectory)
             {
-                
+                allClaims.Add(content);
+                return allClaims;
             }
         }
     }

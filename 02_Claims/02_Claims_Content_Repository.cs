@@ -20,7 +20,7 @@ namespace _02_Claims
         }
 
         // Read All:
-        public List<ClaimContent> GetContents()
+        public List<ClaimContent> GetAllClaims()
         {
             return _contentDirectory;
         }

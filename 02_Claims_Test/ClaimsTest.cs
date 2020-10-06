@@ -11,8 +11,8 @@ namespace _02_Claims_Test
         [TestMethod]
         public void ClaimsTestIsValid(bool isValid)
         {
-            ClaimContent claimContent = new ClaimContent(1234, ClaimType.Car, "Description", 1000, "01/01/2001", "01/02/2001", true);
-            bool actual = claimContent.IsValid;
+            ClaimContent claimContent = new ClaimContent(1234, ClaimType.Car, "Description", 1000, "01/01/2001", "01/02/2001", Validity.True);
+            bool actual = claimContent.IsIsNotValid;
             bool expected = isValid;
             Assert.AreEqual(expected, actual);
         }

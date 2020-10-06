@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _02_Claims
 {
-    public class ClaimsMain : ClaimContent
+    public class ClaimsMain
     {
 
     }

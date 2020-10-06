@@ -68,10 +68,8 @@ namespace ConsoleApp1.UI_01
             item.Name = itemName;
             _console.WriteLine($"Please enter the description for {item.Name}");
             item.Description = _console.ReadLine();
-            //TypeOfGenre
             _console.WriteLine($"Enter a new price for {item.Name}");
             item.Price = int.Parse(_console.ReadLine());
-            //Pass that to the add method in our repo 
             _menuRepo.AddItemMenu(item);
         }
         private void ShowAllMenuItems()
@@ -82,17 +80,13 @@ namespace ConsoleApp1.UI_01
             {
                 DisplaySimple(content);
             }
-            //Pause the program so the user can see the printed objects
             _console.WriteLine("Press any key to continue....");
             _console.ReadKey();
-            //GOAL: Show all items in our fake database 
         }
         private void RemoveMenuItem()
         {
             MenuItem item = new MenuItem();
-            //Ask the user which one they want to remove 
             _console.WriteLine("Which item would you like to remove?");
-            //need a list of the items 
             List<MenuItem> itemList = _menuRepo.GetMenuItems();
             int count = 0;
             foreach (var content in itemList)
@@ -100,13 +94,11 @@ namespace ConsoleApp1.UI_01
                 count++;
                 _console.WriteLine($"{count}) {item.Name}");
             }
-            //take in user response 
             int targetContentID = int.Parse(_console.ReadLine());
             int correctIndex = targetContentID - 1;
             if (correctIndex >= 0 && correctIndex < itemList.Count)
             {
                 MenuItem desiredContent = itemList[correctIndex];
-                //Remove that item 
                 if (_menuRepo.DeleteExistingItem(desiredContent))
                 {
                     _console.WriteLine($"{desiredContent.Name} successfully removed!");
